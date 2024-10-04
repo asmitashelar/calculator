@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calcu,ator.css">
+</head>
+<body>
+    <div id="container">
+        <input type="text" id="display" readonly>
+        <div class="btncontainer">
+            <button class="btn" onclick="currentdisp =' ';
+            let disp=document.querySelector('#display');
+            disp.value=currentdisp;
+            ">C</button>
+            <button class="btn" onclick="currentdisp =currentdisp+ '1';
+            let disp=document.querySelector('#display');
+            disp.value=currentdisp;
+            ">1</button>
+            <button class="btn" onclick="currentdisp =currentdisp+ '2';
+            let disp=document.querySelector('#display');
+            disp.value=currentdisp;
+            ">2</button>
+            <button class="btn" onclick="currentdisp =currentdisp+ '+';
+            let disp=document.querySelector('#display');
+            disp.value=currentdisp;
+            ">+
+            </button>
+            <button class="btn" onclick="currentdisp =currentdisp+ '3';
+            let disp=document.querySelector('#display');
+            disp.value=currentdisp;
+            ">3
+            </button>
+            <button class="btn"onclick="currentdisp =currentdisp+ '4';
+            let disp=document.querySelector('#display');
+            disp.value=currentdisp;
+            ">4
+            </button><button class="btn" onclick="currentdisp =currentdisp+ '-';
+            let disp=document.querySelector('#display');
+            disp.value=currentdisp;
+            ">-
+            </button><button class="btn" onclick="currentdisp =currentdisp+ '5';
+            let disp=document.querySelector('#display');
+            disp.value=currentdisp;
+            ">5
+            </button><button class="btn" onclick="currentdisp =currentdisp+ '6';
+            let disp=document.querySelector('#display');
+            disp.value=currentdisp;
+            ">6
+            </button><button class="btn" onclick="currentdisp =currentdisp+ '*';
+            let disp=document.querySelector('#display');
+            disp.value=currentdisp;
+            ">*
+            </button><button class="btn" onclick="currentdisp =currentdisp+ '7';
+            let disp=document.querySelector('#display');
+            disp.value=currentdisp;
+            ">7
+            </button><button class="btn" onclick="currentdisp =currentdisp+ '8';
+            let disp=document.querySelector('#display');
+            disp.value=currentdisp;
+            ">8
+            </button><button class="btn" onclick="currentdisp =currentdisp+ '/';
+            let disp=document.querySelector('#display');
+            disp.value=currentdisp;
+            ">/
+            </button><button class="btn" onclick="
+            let result=eval(currentdisp);
+             
+            let disp=document.querySelector('#display');
+            disp.value=result;
+            "
+            >=
+            </button><button class="btn" onclick="currentdisp =currentdisp+ '9';
+            let disp=document.querySelector('#display');
+            disp.value=currentdisp;
+            ">9
+            </button><button class="btn" onclick="currentdisp =currentdisp+ '0';
+            let disp=document.querySelector('#display');
+            disp.value=currentdisp;
+            ">0
+            </button><button class="btn" onclick="currentdisp =currentdisp+ '.';
+            let disp=document.querySelector('#display');
+            disp.value=currentdisp;
+            ">.
+            </button>
+
+        </div>
+
+    </div>
+    <script>
+        let currentdisp=' ';
+        let disp=document.querySelector('#display');
+        disp.value=currentdisp;
+
+    </script>
+    
+</body>
+</html>
